@@ -1,45 +1,31 @@
 {
-
   "name": "server",
-
   "version": "1.0.0",
-
   "main": "index.js",
-
   "scripts": {
-
     "start": "netlify-lambda serve src",
     "build": "netlify-lambda build src"
-
   },
-
   "keywords": [],
-
   "author": "",
-
   "license": "ISC",
-
   "description": "",
-
   "dependencies": {
-
     "bcrypt": "^5.1.0",
-
     "cors": "^2.8.5",
-
     "express": "^4.18.2",
-
     "jsonwebtoken": "^8.5.1",
-
     "mongoose": "^6.7.2",
-
     "netlify-lambda": "^2.0.16",
-
     "nodemon": "^2.0.20",
-
     "serverless-http": "^3.1.1"
-
-  }
-
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikindtmas1/netlify-feedback-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikindtmas1/netlify-feedback-server/issues"
+  },
+  "homepage": "https://github.com/nikindtmas1/netlify-feedback-server#readme"
 }
-
